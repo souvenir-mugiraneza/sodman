@@ -74,4 +74,5 @@ app.delete('/delete/:id',(req,res)=>{
         }
         res.status(201).json({"message":"data is deleted successful"});
     })
+
 })
